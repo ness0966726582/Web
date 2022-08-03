@@ -1,0 +1,13 @@
+    <input type='text' id='myInput1' />
+    <button onclick="showRun()">        click to show    </button>
+    <p id="showNewArea"</p>
+
+    <script>
+        var myInfo = document.getElementById("showNewArea");
+        var myInput1 = document.getElementById("myInput1");
+  
+        function showRun() {
+            myInput1.setAttribute('value', 'defaultValue');
+            myInfo.innerHTML =  "Value = " +myInput1.value ;
+        }
+    </script>
