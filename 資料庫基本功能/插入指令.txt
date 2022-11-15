@@ -1,0 +1,4 @@
+INSERT INTO `mytable1`(`id`, `account`, `password`) VALUES ('2019051401','2019051401','2019051401');
+INSERT INTO `mytable1`(`id`, `account`, `password`) VALUES ('2019051402','2019051402','2019051402');
+INSERT INTO `mytable1`(`id`, `account`, `password`) VALUES ('2019051403','2019051403','2019051403');
+INSERT INTO `mytable1`(`id`, `account`, `password`) VALUES ('2019051404','2019051404','2019051404');

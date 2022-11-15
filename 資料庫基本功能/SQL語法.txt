@@ -1,0 +1,11 @@
+//插入
+INSERT INTO `mytable1`(`id`, `account`, `password`) VALUES ('2019051401','2019051401','2019051401')
+
+//更新
+UPDATE `mytable1` SET `id`='[value-1]',`account`='[value-2]',`password`='[value-3]' WHERE id='2019051401' ;
+
+//刪除
+DELETE FROM `mytable1` WHERE  id='2019051401' ;
+
+//選擇
+SELECT `id`, `account`, `password` FROM `mytable1` WHERE id='2019051401' ;
